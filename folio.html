@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nandita_Barman</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #FFC0CB;
+      color: #223;
+    }
+    header {
+      background: #2e4e91;
+      color: #FFC0CB;
+      padding: 30px 0 20px 0;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #FFC0CB;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #FFFFFF;
+    }
+    .container {
+      max-width: 950px;
+      margin: 30px auto;
+      padding: 0 18px;
+    }
+    section {
+      margin-bottom: 55px;
+      background: #FFFFFF;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px #FFFFFF;
+      padding: 28px 22px;
+    }
+    h2 {
+      color: #2e4e91;
+      margin-top: 0;
+    }
+    ul.skills {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      gap: 10px 26px;
+    }
+    ul.skills li {
+      background: #e5eefa;
+      color: #2e4e91;
+      padding: 6px 18px;
+      border-radius: 18px;
+      font-weight: 500;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .project-card {
+      background: #e5eefa;
+      padding: 16px;
+      border-radius: 8px;
+      flex: 1 1 270px;
+      min-width: 250px;
+      box-shadow: 0 2px 6px #dbe4fa;
+    }
+    .project-card h3 {
+      margin-top: 0;
+      color: #245086;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 7px;
+      margin-bottom: 11px;
+      border: 1px solid #b5cbe7;
+      border-radius: 4px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+    .contact-form button {
+      background: #2e4e91;
+      color: #fff;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .contact-form button:hover {
+      background: #1d3360;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 0.97rem;
+      padding: 22px 0 16px 0;
+      background: transparent;
+      margin-top: 20px;
+    }
+    @media (max-width: 700px) {
+      .container, section {
+        padding: 10px;
+      }
+      .projects {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nandita Barman</h1>
+	<h3>📍Nagaland</h3>
+	
+    <p>Introvert | Listener | Calm & Cute</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Your Name, a passionate web developer focused on building user-friendly, responsive, and accessible web experiences. I love to explore new technologies and continuously improve my skills.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Chup Rehna, Baatein Na karna ...</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Goongibehri Bankar Rahna!</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Nothing</li>
+        <li>Nothing</li>
+        <li>Nothing</li>
+        <li>Nothing</li>
+        <li>Nothing</li>
+        <li>Nothing</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@email.com" required>
+        <label for="msg">Message</label>
+        <textarea id="msg" rows="4" placeholder="Type your message..." required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+</body>
+</html>
